@@ -77,3 +77,7 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'guard-rubocop'
 end
+
+group :development, :test do
+  gem 'factory_bot_rails'
+end
